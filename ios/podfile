@@ -1,0 +1,19 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+inhibit_all_warnings!
+target 'yryzApp' do
+
+  pod 'ShareSDK3'
+  pod 'MOBFoundation'
+  pod 'ShareSDK3/ShareSDKPlatforms/QQ'
+  pod 'ShareSDK3/ShareSDKPlatforms/SinaWeibo'
+  pod 'ShareSDK3/ShareSDKPlatforms/WeChat'
+  pod 'Bugly'
+  pod 'AliyunOSSiOS', '~> 2.6.3'
+  pod 'MBProgressHUD', '~> 1.0.0'
+  pod 'YYKit'
+  pod 'UMCCommon'       #友盟公共组件，必选
+end
+
+

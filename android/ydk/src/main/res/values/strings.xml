@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ydk</string>
+    <string name="not_found_share_app">没有该APP</string>
+    <string name="cancel_option">取消分享</string>
+    <string name="share_error">分享失败</string>
+    <string name="share_success">分享成功</string>
+    <string name="choose_pic_hint">请选择需要上传图片</string>
+    <string name="upload_pic_fail_hint">图片上传失败，请稍候再试～</string>
+
+    <style name="SplashScreen_SplashAnimation">
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="SplashScreen_SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/SplashScreen_SplashAnimation</item>
+    </style>
+    <style name="SplashScreen_Fullscreen" parent="SplashScreen_SplashTheme">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

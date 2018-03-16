@@ -1,0 +1,1 @@
+export const LOAD_CITY = 'LOAD_CITY';

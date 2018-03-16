@@ -1,0 +1,59 @@
+{
+    "env": {
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "globals": {
+        "setTimeout": true,
+        "fetch": true,
+        "console": true,
+        "require": true
+    },
+    "rules": {
+        "indent": [
+            2,
+            "tab"
+        ],
+        "semi": [
+            2,
+            "always"
+        ],
+        "eqeqeq": 2,
+        "func-call-spacing": 2,
+        "react/jsx-uses-vars": 2,
+        "react/jsx-uses-react": 2,
+        "semi-spacing": 1,
+        "comma-spacing": 1,
+        "key-spacing": 1,
+        "keyword-spacing": 1,
+        "arrow-spacing": 1,
+        "space-before-blocks": 1,
+        "space-infix-ops": 1,
+        "space-unary-ops": 1,
+        "space-before-function-paren": [
+            1,
+            {
+                "named": "never"
+            }
+        ],
+        "spaced-comment": 1,
+        "no-empty": 1,
+        "no-unreachable": 1,
+        "no-unused-vars": 1,
+        "no-console": 0,
+        "no-fallthrough": 0,
+        "no-extra-semi": 0
+    }
+}

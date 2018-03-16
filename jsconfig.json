@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+       	"allowSyntheticDefaultImports": true,
+		"experimentalDecorators" :true ,
+		"allowJs": true,
+		"baseUrl":"./",
+		"paths": {
+			"@components": [ "./js/components" ],
+			"@components/*": [ "./js/components/*" ],
+			"@styles": [ "./js/styles" ],
+			"@styles/*": [ "./js/styles/*" ],
+			"@ydk/*": [ "./ydk/*" ],
+			"@ydk": [ "./ydk" ],
+			"@actions/*": [ "./js/actions/*" ],
+			"@actions": [ "./js/actions" ],
+			"@services/*": [ "./js/services/*" ],
+			"@services": [ "./js/services" ],
+			"@utils/*": [ "./js/utils/*" ],
+			"@utils": [ "./js/utils" ]
+        }
+    },
+    "exclude": [
+        "node_modules"
+	]
+	// "include": ["./ydk/"]
+	
+}

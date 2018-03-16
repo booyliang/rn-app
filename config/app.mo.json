@@ -1,0 +1,9 @@
+{
+	
+	"httpBaseUrl": "https://yryz-mo.yryz.com/yryz",
+	"webBaseUrl": "https://m-mo.yryz.com",
+	"jpushAppKey":"829a414d80f3a73b73025247",
+	"apsForProduction":true,
+	"showFunctionMonitorView":false,
+	"build":"mo"
+}

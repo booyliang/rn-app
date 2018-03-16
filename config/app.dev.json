@@ -1,0 +1,9 @@
+{
+	
+	"httpBaseUrl": "http://yryz-dev.yryz.com/yryz",
+	"webBaseUrl": "http://m-dev.yryz.com",
+	"jpushAppKey":"ff209cfbd67a228f1f58b7dd",
+	"apsForProduction":false,
+	"showFunctionMonitorView":true,
+	"build":"dev"
+}

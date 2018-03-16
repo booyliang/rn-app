@@ -1,0 +1,28 @@
+{
+	"presets": ["react-native"],
+	"env": {
+		"development": {
+			"plugins": ["transform-react-jsx-source"]
+		}
+	},
+	"plugins": [
+		[
+			"./config/babel-plugin-module-resolver",
+			{
+				"root": ["./"],
+				"alias": {
+					"@ydk": "./ydk",
+					"@components": "./js/components",
+					"@styles": "./js/styles",
+					"@assets": "./js/assets",
+					"@actions": "./js/actions",
+					"@services": "./js/services",
+					"@utils": "./js/utils"
+				}
+			}
+		],
+		"transform-decorators-legacy",
+		"transform-exponentiation-operator",
+		"transform-export-extensions"
+	]
+}

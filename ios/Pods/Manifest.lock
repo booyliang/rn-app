@@ -1,0 +1,45 @@
+PODS:
+  - AliyunOSSiOS (2.6.5)
+  - Bugly (2.5.0)
+  - MBProgressHUD (1.0.0)
+  - MOBFoundation (3.1.0)
+  - ShareSDK3 (4.0.4):
+    - MOBFoundation
+    - ShareSDK3/ShareSDK (= 4.0.4)
+  - ShareSDK3/ShareSDK (4.0.4):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKPlatforms/QQ (4.0.4):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKPlatforms/SinaWeibo (4.0.4):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKPlatforms/WeChat (4.0.4):
+    - MOBFoundation
+  - UMCCommon (1.4.1)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - AliyunOSSiOS (~> 2.6.3)
+  - Bugly
+  - MBProgressHUD (~> 1.0.0)
+  - MOBFoundation
+  - ShareSDK3
+  - ShareSDK3/ShareSDKPlatforms/QQ
+  - ShareSDK3/ShareSDKPlatforms/SinaWeibo
+  - ShareSDK3/ShareSDKPlatforms/WeChat
+  - UMCCommon
+  - YYKit
+
+SPEC CHECKSUMS:
+  AliyunOSSiOS: 6d7f1f6aae0176095d147a88d60b23bbef93e0b7
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MOBFoundation: 2d0799b6ad2677fa28e4cf5bcb1de28b34788110
+  ShareSDK3: 75b57bab0cbe3119e281c7668eaad9d48adf3fde
+  UMCCommon: ed0b882a939c45850f6803a5837698572a3e9b96
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: bb209a8c612bdcf3f2a2c458c990b4a30020032e
+
+COCOAPODS: 1.3.1

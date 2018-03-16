@@ -1,0 +1,9 @@
+{
+	"httpBaseUrl": "http://yryz-test.yryz.com/yryz",
+	"webBaseUrl": "http://m-test.yryz.com",
+	"jpushAppKey":"ff209cfbd67a228f1f58b7dd",
+	"apsForProduction":false,
+	"showFunctionMonitorView":true,
+	"alwaysShowTransitionPage":true,
+	"build":"test"
+}
